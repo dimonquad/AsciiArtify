@@ -9,13 +9,13 @@
 | Ядро Kubernetes       | Ванільний K8s                                                                      | Ванільний K8s                                               | K3s (легковаговий)                                                       |
 
 
-#Conclusiob
+# Conclusion
 Conclusion is to use k3d 
 Pros:
 Cons:
 Висновок треба юзати k3d
 
-#Demo
+# Demo
 demo with Hello World
 
 ![demo](https://github.com/user-attachments/assets/013399a2-0dca-469d-8e62-27a0df08059a)
