@@ -11,14 +11,13 @@
 
 # Conclusion
 Conclusion is to use k3d 
-Pros:
+Pros: 
 Cons:
 Висновок треба юзати k3d
 
 ```
 
-# Встановлення k3d
-curl -s https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
+choco install k3d
 
 # Створення кластера
 k3d cluster create asciiartify-cluster
@@ -38,6 +37,7 @@ kubectl get svc
 # Demo
 demo with Hello World
 
-![demo](https://github.com/user-attachments/assets/013399a2-0dca-469d-8e62-27a0df08059a)
+<img width="1184" height="752" alt="image" src="https://github.com/user-attachments/assets/93218ebb-e1e6-4d97-8cb1-bb6d85d03157" />
+
 
 
