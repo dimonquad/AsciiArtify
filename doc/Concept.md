@@ -15,7 +15,29 @@ Pros:
 Cons:
 Висновок треба юзати k3d
 
+```
+
+# Встановлення k3d
+curl -s https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
+
+# Створення кластера
+k3d cluster create asciiartify-cluster
+
+# Перевірка
+kubectl get nodes
+
+# Деплой Hello World
+kubectl create deployment hello-world --image=nginx
+kubectl expose deployment hello-world --port=80 --type=NodePort
+
+# Отримати URL
+kubectl get svc
+
+```
+
 # Demo
 demo with Hello World
 
 ![demo](https://github.com/user-attachments/assets/013399a2-0dca-469d-8e62-27a0df08059a)
+
+
